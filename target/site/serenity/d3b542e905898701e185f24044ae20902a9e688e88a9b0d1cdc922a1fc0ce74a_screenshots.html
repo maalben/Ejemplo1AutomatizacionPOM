@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2021 20:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2021 22:01</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,7 +186,7 @@ para cada campo a través de un globo informativo.
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e305466e473df48189616cdcb01856215d761204524b654493199ad16888c098.html">Autenticacion Exitosa
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="185ddab602c137c8aeb06e02a0a058b938c8c05b4a6cc6dd9b739d95f31ac549.html">Autenticacion Exitosa Con Datos Excel
                                     (tag)</a>
                                 </span>
                             </p>
@@ -198,9 +198,9 @@ para cada campo a través de un globo informativo.
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Diligenciamiento exitoso del formulario de autenticacion en Colorlib
+                                <span class="error-color">Diligenciamiento exitoso del formulario de autenticacion en Colorlib
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,6 +214,10 @@ para cada campo a través de un globo informativo.
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Yo Ingreso a la plataforma colorlib<br>When Yo me autentico con los datos de excel<br><table class='embedded'><tbody><tr><td>&lt;Usuario&gt;</td><td>&lt;Clave&gt;</td></tr></tbody></table><br>Then Yo verifico el mensaje<br><table class='embedded'><tbody><tr><td>&lt;Esperado&gt;</td></tr></tbody></table></div>
+    </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
@@ -223,7 +227,7 @@ para cada campo a través de un globo informativo.
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Assertion error: Bootstrap-Admin-Template</span>
+                    <span class="error-message error-message-title">No such element exception: Timed out after 2 seconds. Element not found</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -239,11 +243,11 @@ para cada campo a través de un globo informativo.
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>colorlib.pageobject.DiligenciarCredenciales.home(DiligenciarCredenciales.java:33)<br />colorlib.steps.Verificar.acceso(Verificar.java:12)<br />colorlib.definitions.AutenticacionDefinitions.yo_verifico_el_ingreso_exitoso(AutenticacionDefinitions.java:34)<br />✽.Yo verifico el ingreso exitoso(src/test/resources/features/autenticacion.feature:12)<br /></pre>
+                        <pre>colorlib.pageobject.AutenticacionPageObject.home(AutenticacionPageObject.java:42)<br />colorlib.steps.Diligenciar.datoValidacion(Diligenciar.java:31)<br />colorlib.definitions.AutenticacionDefinitions.yo_me_autentico_con_los_datos_de_excel(AutenticacionDefinitions.java:64)<br />✽.Yo me autentico con los datos de excel(src/test/resources/features/autenticacion.feature:38)<br /></pre>
                     </div>
 
                 </div>
@@ -253,13 +257,15 @@ para cada campo a través de un globo informativo.
 
 
                 <div class="panel-body">
-                    <a href="pagesource16618223586852021501.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource16562659808172354353.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="bdfbdbdf6061df1ebfbfbb0f671f6ddcd3fd2fc5fdce21386e33145507264f6c.png" title=" Then Yo verifico el ingreso exitoso" width="3360"/>
-                <img src="bdfbdbdf6061df1ebfbfbb0f671f6ddcd3fd2fc5fdce21386e33145507264f6c.png" title=" Acceso: <span class='failing-color'>FAILURE</span>" width="3360"/>
+                <img src="cf5c088e060d1a183c8dd7ecc574bd1f313ce32df9d58d50d62a8d3b4ac3c84b.png" title=" Example: {Usuario=demo1, Clave=demo1, Esperado=Bootstrap-Admin-Template}" width="3360"/>
+                <img src="cf5c088e060d1a183c8dd7ecc574bd1f313ce32df9d58d50d62a8d3b4ac3c84b.png" title=" When Yo me autentico con los datos de excel
+| demo1 | demo1 |" width="3360"/>
+                <img src="cf5c088e060d1a183c8dd7ecc574bd1f313ce32df9d58d50d62a8d3b4ac3c84b.png" title=" Dato validacion: [[demo1, demo1]], 0: <span class='error-color'>ERROR</span>" width="3360"/>
             </div>
         </div>
 

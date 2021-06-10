@@ -148,7 +148,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2021 20:21</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2021 22:11</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,7 +173,7 @@
                                 <p class="tag">
                                     <span class="badge tag-badge" style="background:default;">
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
-                                                                      href="e305466e473df48189616cdcb01856215d761204524b654493199ad16888c098.html">Autenticacion Exitosa
+                                                                      href="185ddab602c137c8aeb06e02a0a058b938c8c05b4a6cc6dd9b739d95f31ac549.html">Autenticacion Exitosa Con Datos Excel
                                     (tag)</a>
                                 </span>
                                 </p>
@@ -205,9 +205,60 @@
 
     <div class="clr"></div>
 
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">Given Yo Ingreso a la plataforma colorlib<br>When Yo me autentico con los datos de excel<br><table class='embedded'><tbody><tr><td>&lt;Usuario&gt;</td><td>&lt;Clave&gt;</td></tr></tbody></table><br>Then Yo verifico el mensaje<br><table class='embedded'><tbody><tr><td>&lt;Esperado&gt;</td></tr></tbody></table></div>
+
+        </div>
 
     <div id="beforetable"></div>
 
+
+            <h3 class="story-header">Examples:&nbsp;</h3>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Usuario</th>
+                            <th>Clave</th>
+                            <th>Esperado</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">demo1</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">demo1</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">Bootstrap-Admin-Template</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#1">2</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">demo2</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">demo2</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">Bootstrap-Admin-Template</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
     <div id="tablecontents">
         <div>
@@ -242,7 +293,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given Yo Ingreso a la plataforma colorlib
+                                                Example: {Usuario=demo1, Clave=demo1, Esperado=Bootstrap-Admin-Template}
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -251,7 +302,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">7.47s</span></td>
+                        <td width="100"><span class="top-level-step">10.2s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -261,7 +312,38 @@
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
-                                <span style="margin-left: 40px;"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Given Yo Ingreso a la plataforma colorlib
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">7.33s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-0-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -277,8 +359,126 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6.62s</span></td>
+                        <td width="100"><span class="nested-group-step">6.58s</span></td>
                     </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-1 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                When Yo me autentico con los datos de excel<br><table class='embedded'><tbody><tr><td>demo1</td><td>demo1</td></tr></tbody></table>
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">2.77s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-1-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Para datos de autenticacion: [[demo1, demo1]], 0
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">2.76s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-2"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-2')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-2 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-2')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Then Yo verifico el mensaje<br><table class='embedded'><tbody><tr><td>Bootstrap-Admin-Template</td></tr></tbody></table>
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.08s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-2" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-2-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Dato validacion: [[Bootstrap-Admin-Template]], 0
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.08s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
 
                                 </table>
                             </td>
@@ -299,7 +499,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                When Yo me autentico con usuario "demo" y clave "demo"
+                                                Example: {Usuario=demo2, Clave=demo2, Esperado=Bootstrap-Admin-Template}
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -308,7 +508,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">2.73s</span></td>
+                        <td width="100"><span class="top-level-step">7.86s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -318,7 +518,38 @@
 
                         <td width="70" class="step-icon">
                             <a name="1-0"></a>
-                                <span style="margin-left: 40px;"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Given Yo Ingreso a la plataforma colorlib
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">5.52s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-0-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -326,7 +557,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Formulario autenticacion: demo, demo
+                                                Abrir navegador
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -334,7 +565,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2.72s</span></td>
+                        <td width="100"><span class="nested-group-step">5.4s</span></td>
                     </tr>
 
                                 </table>
@@ -342,21 +573,21 @@
                         </tr>
                     <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                        <td width="70" class="step-icon">
+                            <a name="1-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 success-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                    <i class="fa fa-plus-square-o imgstepSection1-1 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
                                    style="display:block;">
-                                    <span class="top-level-step">
-                                                Then Yo verifico el ingreso exitoso
+                                    <span class="nested-step">
+                                                When Yo me autentico con los datos de excel<br><table class='embedded'><tbody><tr><td>demo2</td><td>demo2</td></tr></tbody></table>
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -364,18 +595,18 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.1s</span></td>
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">2.25s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
-                                <table id="stepSection2" class="step-table-nested" style="display:none;">
+                                <table id="stepSection1-1" class="step-table-nested" style="display:none;">
 
                     <tr class="test-SUCCESS">
 
-                        <td width="70" class="step-icon">
-                            <a name="2-0"></a>
-                                <span style="margin-left: 40px;"
+                        <td width="90" class="step-icon">
+                            <a name="1-1-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -383,7 +614,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Acceso
+                                                Para datos de autenticacion: [[demo2, demo2]], 0
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -391,8 +622,69 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.09s</span></td>
+                        <td width="100"><span class="nested-group-step">2.24s</span></td>
                     </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-2"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-2 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Then Yo verifico el mensaje<br><table class='embedded'><tbody><tr><td>Bootstrap-Admin-Template</td></tr></tbody></table>
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.08s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-2" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-2-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Dato validacion: [[Bootstrap-Admin-Template]], 0
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.08s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
 
                                 </table>
                             </td>
@@ -400,7 +692,7 @@
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>10.57s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>18.72s</em></span></td>
                 </tr>
 
             </table>

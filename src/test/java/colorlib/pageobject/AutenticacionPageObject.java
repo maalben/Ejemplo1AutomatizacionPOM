@@ -36,6 +36,13 @@ public class AutenticacionPageObject extends PageObject {
         Assert.assertEquals(mensajeEsperado, mensajeMapeo);
         MatcherAssert.assertThat(mensajeEsperado, Matchers.equalTo(mensajeMapeo));
     }
+
+    public void home(String respuesta) {
+        String mensajeEsperado = respuesta;
+        String mensajeMapeo = lblHome.getText();
+        Assert.assertEquals(mensajeEsperado, mensajeMapeo);
+        MatcherAssert.assertThat(mensajeEsperado, Matchers.equalTo(mensajeMapeo));
+    }
 }
 
 
