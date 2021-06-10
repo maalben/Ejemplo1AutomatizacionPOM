@@ -23,5 +23,7 @@ dependencies {
     compile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.1.10'
     compile group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.1.10'
     compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.51'
+    implementation group: 'org.apache.poi', name: 'poi', version: '3.17'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
 }
 gradle.startParameter.continueOnFailure = true

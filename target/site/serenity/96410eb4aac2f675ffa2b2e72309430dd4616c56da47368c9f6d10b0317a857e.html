@@ -179,7 +179,7 @@
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname">
-                <span class="projecttitle"></span>
+                <span class="projecttitle">Practica 1 de automatizaciÃ³n POM</span>
                 <span class="projectsubtitle"></span>
             </span>
         </div>
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2021 20:21</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2021 20:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -242,7 +242,7 @@
                                                     <span class="badge tag-badge" style="background:default;">
                                                         <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
                                                                                           style="background:default;"
-                                                                                          href="e305466e473df48189616cdcb01856215d761204524b654493199ad16888c098.html">Autenticacion Exitosa
+                                                                                          href="925b2bba1afc5775493982c749f40fd332d62ae28899187ef0a3afbebc779e37.html">Autenticacion Exitosa Con Titulos De Campos
                                                         (tag)</a>
                                                     </span>
                                                 </p>
@@ -291,7 +291,7 @@ para cada campo a través de un globo informativo.
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
                                                                 <a href="#053c7e5308f104875d5615289ed27ea26bdb80db7cfec1e3637c433d9407e524" title="View scenario details" >Diligenciamiento exitoso del formulario de autenticacion en colorlib</a>
-
+                                                                     (3 examples)
 
                                                             </td>
                                                             <td style="width:5%;">
@@ -301,7 +301,7 @@ para cada campo a través de un globo informativo.
                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                href="d3b542e905898701e185f24044ae20902a9e688e88a9b0d1cdc922a1fc0ce74a.html"
                                                                                title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                             </a>
 
                                                                         
@@ -324,7 +324,7 @@ para cada campo a través de un globo informativo.
                                             <h3>Scenario details</h3>
 
                                                 <div class="scenario-docs card" id="053c7e5308f104875d5615289ed27ea26bdb80db7cfec1e3637c433d9407e524">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header failure" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
                                                                 <a href="d3b542e905898701e185f24044ae20902a9e688e88a9b0d1cdc922a1fc0ce74a.html" title="View test results">Diligenciamiento exitoso del formulario de autenticacion en Colorlib</a>
@@ -332,15 +332,41 @@ para cada campo a través de un globo informativo.
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                    <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
                                                             <p>Given Yo Ingreso a la plataforma colorlib</p>
-                                                            <p>When Yo me autentico con usuario &quot;demo&quot; y clave &quot;demo&quot;</p>
-                                                            <p>Then Yo verifico el ingreso exitoso</p>
+                                                            <p><p>When Yo me autentico con los datos</p>
+<table>
+<thead>
+<tr><th>{Usuario}</th><th>{Clave}</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</p>
+                                                            <p><p>Then Yo verifico el mensaje</p>
+<table>
+<thead>
+<tr><th>{Esperado}</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</p>
                                                         <div class="examples">
+                                                            <p><p>Examples:</p>
+<div class='example-table-in-scenario'><table>
+<thead>
+<tr><th>Usuario</th><th>Clave</th><th>Esperado</th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>demo1</td><td>demo1</td><td>Bootstrap-Admin-Template</td><td> </td></tr>
+<tr><td>demo2</td><td>demo2</td><td>Bootstrap-Admin-Template</td><td> </td></tr>
+<tr><td>demo3</td><td>demo3</td><td>Bootstrap-Admin</td><td> </td></tr>
+</tbody>
+</table></div>
+</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -359,10 +385,10 @@ para cada campo a través de un globo informativo.
                                             </div>
                                             <script>
 
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                var labels = ['67%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -403,8 +429,8 @@ para cada campo a través de un globo informativo.
                                                                         <a href="15de87b8fb53e5561a7125d39e44b8363de9c1f4a0b9a6fd8c499ef62369d765.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">67%</td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -428,19 +454,19 @@ para cada campo a través de un globo informativo.
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                             <td colspan="3"><a href="f0abd6004d3edd457c90b9fc52afebeb4b25c8f6a388ad6acc0548e3e37414d2.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
                                             </tr>
 
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="65c631c55f333ce719da4b7ab153f6bd1a470f81fc5433c7fb150172d36f502f.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">33%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -458,7 +484,7 @@ para cada campo a través de un globo informativo.
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">3</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -480,11 +506,11 @@ para cada campo a través de un globo informativo.
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>10s</td>
-                                                        <td>10ms</td>
-                                                        <td>10s</td>
-                                                        <td>10s</td>
-                                                        <td>10s</td>
+                                                        <td>26s</td>
+                                                        <td>26ms</td>
+                                                        <td>7s</td>
+                                                        <td>9s</td>
+                                                        <td>26s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -507,16 +533,17 @@ para cada campo a través de un globo informativo.
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="d3b542e905898701e185f24044ae20902a9e688e88a9b0d1cdc922a1fc0ce74a.html">Diligenciamiento exitoso del formulario de autenticacion en Colorlib</a>
+                                                               (3 examples)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>20:21:08</td>
-                                                    <td>10s 571ms</td>
+                                                    <td>20:05:13</td>
+                                                    <td>26s 345ms</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>

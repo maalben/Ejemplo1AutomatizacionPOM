@@ -141,7 +141,7 @@
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname">
-                <span class="projecttitle"></span>
+                <span class="projecttitle">Practica 1 de automatizaciÃ³n POM</span>
                 <span class="projectsubtitle"></span>
             </span>
         </div>
@@ -176,7 +176,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2021 20:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2021 20:05</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -192,16 +192,16 @@
                             <div class="test-count-summary">
                                 <div>
 
-                                1 test
-                                    across 1 scenario
+                                0 tests
+                                    across 0 scenarios
 
                                      |
                                         <a href="72fd4fe581483dba7139a631c198a78f9358fdb8b6e4adeaf56e6764f5a71cae.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
                                     <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
-                                        data-driven scenarios containing test ,
-                                        which may also contain results other than test .</p>
+                                        data-driven scenarios containing tests ,
+                                        which may also contain results other than tests .</p>
 
 
 
@@ -226,54 +226,6 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
-                                                            <div style="width:300px;"
-                                                                 class="chart-container automated-and-manual-results">
-                                                                <div class="ct-chart ct-square"></div>
-                                                            </div>
-                                                            <script>
-
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-                                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                                // as you saw in the previous example
-                                                                var options = {
-                                                                    width: 350,
-                                                                    height: 300
-                                                                };
-
-
-                                                                new Chartist.Pie('.ct-chart', {
-                                                                    series: series,
-                                                                    labels: labels
-                                                                }, {
-                                                                    plugins: [Chartist.plugins.tooltip()],
-                                                                    donut: true,
-                                                                    donutWidth: 60,
-                                                                    donutSolid: true,
-                                                                    startAngle: 270,
-                                                                    showLabel: true
-                                                                }, options);
-
-
-                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                                    new Chartist.Pie('.ct-chart', {
-                                                                        series: series,
-                                                                        labels: labels
-                                                                    }, {
-                                                                        plugins: [Chartist.plugins.tooltip()],
-                                                                        donut: true,
-                                                                        donutWidth: 60,
-                                                                        donutSolid: true,
-                                                                        startAngle: 270,
-                                                                        showLabel: true
-                                                                    }, options);
-                                                                });
-
-
-                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -288,12 +240,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="15de87b8fb53e5561a7125d39e44b8363de9c1f4a0b9a6fd8c499ef62369d765.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -345,7 +296,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">0</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -354,23 +305,6 @@
                                                 </div>
 
 
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                        <h3>Tags</h3>
-
-                                                        <div class="card">
-                                                            <div class="card-body">
-                                                                <div>
-                                                                    <a href="e305466e473df48189616cdcb01856215d761204524b654493199ad16888c098.html">
-                                                                        <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                class="fa fa-tag"></i> Autenticacion Exitosa&nbsp;&nbsp;&nbsp;1</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                         <div id="tests" class="tab-pane fade">
@@ -379,33 +313,7 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            <table class="scenario-result-table table" id="scenario-results">
-                                                <thead>
-                                                <tr>
-                                                    <th>feature</th>
-                                                    <th class="test-name-column">Scenario</th>
-                                                    <th>Steps</th>
-                                                    <th>Start Time</th>
-                                                    <th>Duration</th>
-                                                    <th>Result</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="96410eb4aac2f675ffa2b2e72309430dd4616c56da47368c9f6d10b0317a857e.html">Autenticacion en formulario de Colorlib</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="d3b542e905898701e185f24044ae20902a9e688e88a9b0d1cdc922a1fc0ce74a.html">Diligenciamiento exitoso del formulario de autenticacion en Colorlib</a>
-                                                    </td>
-                                                    <td>3</td>
-                                                    <td>20:21:08</td>
-                                                    <td>10s 571ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                            No automated tests were executed
 
                                                     </div>
                                                 </div>

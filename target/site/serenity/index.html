@@ -161,7 +161,7 @@
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname">
-                <span class="projecttitle"></span>
+                <span class="projecttitle">Practica 1 de automatizaciÃ³n POM</span>
                 <span class="projectsubtitle"></span>
             </span>
         </div>
@@ -192,7 +192,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2021 20:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2021 20:05</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -207,7 +207,8 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    1 test scenarios 
+                                    3 test scenarios 
+                                        (including 3 rows of test data)
                                      |
                                         <a href="results.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
@@ -240,10 +241,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = ['67%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -302,8 +303,8 @@
                                                                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
                                                                                     class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">67%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -327,17 +328,18 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                        <td colspan="3"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                        <td colspan="3"><a
+                                                                                    href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                        class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                         </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                    class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">33%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -355,7 +357,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">3</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -377,11 +379,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>10s</td>
-                                                                <td>10ms</td>
-                                                                <td>10s</td>
-                                                                <td>10s</td>
-                                                                <td>10s</td>
+                                                                <td>26s</td>
+                                                                <td>26ms</td>
+                                                                <td>7s</td>
+                                                                <td>9s</td>
+                                                                <td>26s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -410,18 +412,26 @@
                                                                                 <td>
                                                                                         <a href="96410eb4aac2f675ffa2b2e72309430dd4616c56da47368c9f6d10b0317a857e.html">Autenticacion en formulario de Colorlib</a>
                                                                                 </td>
-                                                                                <td>1</td>
-                                                                                <td>100%</td>
+                                                                                <td>3</td>
+                                                                                <td>67%</td>
                                                                                 <td>
-                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 style="width: 66.666667%; background-color: #30cb23"
+                                                                                                 aria-valuenow="2"
+                                                                                                 title="67% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 33.333333%; background-color: #f8001f"
                                                                                                  aria-valuenow="1"
-                                                                                                 title="100% success"
+                                                                                                 title="33% failure"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -433,6 +443,43 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h3>Test Failure Overview</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Frequent Failures</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title">
+                                                                            <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">1</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Unstable Features</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="96410eb4aac2f675ffa2b2e72309430dd4616c56da47368c9f6d10b0317a857e.html">Autenticacion en formulario de Colorlib</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">33%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
 
                                                     <div class="row">
                                                         <div class="col-sm-12">
@@ -441,10 +488,10 @@
                                                                 <div class="card">
                                                                     <div class="card-body">
                                                                         <div>
-                                                                                <a href="e305466e473df48189616cdcb01856215d761204524b654493199ad16888c098.html">
+                                                                                <a href="925b2bba1afc5775493982c749f40fd332d62ae28899187ef0a3afbebc779e37.html">
                                                                         <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                    class="fa fa-tag"></i> Autenticacion Exitosa&nbsp;&nbsp;&nbsp;1</span>
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Autenticacion Exitosa Con Titulos De Campos&nbsp;&nbsp;&nbsp;3</span>
                                                                                 </a>
                                                                         </div>
                                                                     </div>
@@ -472,18 +519,19 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr class="scenario-result SUCCESS">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="96410eb4aac2f675ffa2b2e72309430dd4616c56da47368c9f6d10b0317a857e.html">Autenticacion en formulario de Colorlib</a>
                                                                         </td>
                                                                         <td>
                                                                             <a href="d3b542e905898701e185f24044ae20902a9e688e88a9b0d1cdc922a1fc0ce74a.html">Diligenciamiento exitoso del formulario de autenticacion en Colorlib</a>
+                                                                                (3 examples)
                                                                         </td>
                                                                         <td>3</td>
-                                                                        <td>20:21:08</td>
-                                                                        <td>10s 571ms</td>
-                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                    style="display:none">SUCCESS</span>
+                                                                        <td>20:05:13</td>
+                                                                        <td>26s 345ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
