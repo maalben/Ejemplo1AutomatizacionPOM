@@ -44,3 +44,4 @@ Feature: Autenticacion en formulario de Colorlib
       | Usuario  | Clave  | Esperado                  |
       ##@externaldata@./src/test/resources/datos/datos.xlsx@Sheet1
    |demo1   |demo1   |Bootstrap-Admin-Template|
+   |demo2   |demo2   |Bootstrap-Admin-Template|
