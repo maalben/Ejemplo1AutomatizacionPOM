@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Autenticacion en formulario de Colorlib" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-10T03:11:32" hostname="MacBook-Pro-de-Mario.local" time="18.538">
+<testsuite name="Autenticacion en formulario de Colorlib" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-11T18:19:21" hostname="MacBook-Pro-de-Mario.local" time="19.034">
   <properties/>
-  <testcase name="Diligenciamiento exitoso del formulario de autenticacion en Colorlib" classname="Autenticacion en formulario de Colorlib" time="10.448"/>
-  <testcase name="Diligenciamiento exitoso del formulario de autenticacion en Colorlib" classname="Autenticacion en formulario de Colorlib" time="8.081"/>
+  <testcase name="Diligenciamiento exitoso del formulario de autenticacion en Colorlib" classname="Autenticacion en formulario de Colorlib" time="10.859"/>
+  <testcase name="Diligenciamiento exitoso del formulario de autenticacion en Colorlib" classname="Autenticacion en formulario de Colorlib" time="8.169"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jun 09, 2021 10:11:33 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Jun 11, 2021 1:19:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18039
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17213
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 09, 2021 10:11:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 11, 2021 1:19:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 09, 2021 10:11:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jun 11, 2021 1:19:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17992
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 31142
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 09, 2021 10:11:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 11, 2021 1:19:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
