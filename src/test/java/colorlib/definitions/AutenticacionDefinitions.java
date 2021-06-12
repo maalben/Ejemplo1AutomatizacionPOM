@@ -1,5 +1,6 @@
 package colorlib.definitions;
 
+import colorlib.models.UsuariosModels;
 import colorlib.steps.Diligenciar;
 import colorlib.steps.PasoInicial;
 import cucumber.api.DataTable;
@@ -65,4 +66,14 @@ public class AutenticacionDefinitions {
         }
     }
 
+
+    @When("^Yo me autentico con los datos del modelo$")
+    public void yo_me_autentico_con_los_datos_del_modelo(List<UsuariosModels> usuariosModels) {
+            diligenciar.conDatosModelo(usuariosModels);
+    }
+
+    @Then("^Yo verifico el mensaje con el modelo de datos$")
+    public void yo_verifico_el_mensaje_con_el_modelo_de_datos(List<UsuariosModels> usuariosModels) {
+            diligenciar.validarResultado(usuariosModels);
+    }
 }

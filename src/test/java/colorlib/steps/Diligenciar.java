@@ -1,5 +1,6 @@
 package colorlib.steps;
 
+import colorlib.models.UsuariosModels;
 import colorlib.pageobject.AutenticacionPageObject;
 import net.thucydides.core.annotations.Step;
 
@@ -29,5 +30,17 @@ public class Diligenciar {
     @Step
     public void datoValidacion(List<List<String>> datos, int i) {
         autenticacionPageObject.home(datos.get(i).get(0).trim());
+    }
+
+    @Step
+    public void conDatosModelo(List<UsuariosModels> usuariosModels) {
+        String usuario = usuariosModels.get(0).getUsuario();
+        String clave = usuariosModels.get(0).getClave();
+        autenticacionPageObject.usuario(usuario, clave);
+    }
+
+    @Step
+    public void validarResultado(List<UsuariosModels> usuariosModels) {
+        autenticacionPageObject.home(usuariosModels.get(0).getEsperado());
     }
 }
