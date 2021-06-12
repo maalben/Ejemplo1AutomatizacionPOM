@@ -18,8 +18,7 @@ pipeline{
 				steps{
 					script{
 						try{							
-// 							bat "gradle -Dtest.single=\"${RUNNER}\" test aggregate"
- 							bat "./gradlew -Dtest.single=\"${RUNNER}\" test aggregate"
+ 							bat "gradle -Dtest.single=\"${RUNNER}\" test aggregate"
 						 	echo 'Ha ejecutado sin fallo hasta test junit'
 						}
 						catch(ex)

@@ -15,8 +15,7 @@ import java.io.IOException;
 @CucumberOptions(
         features = "src/test/resources/features/autenticacion.feature",
         glue = "colorlib.definitions",
-        snippets = SnippetType.UNDERSCORE,
-        tags = "@AutenticacionExitosaConDatosExcel"
+        snippets = SnippetType.UNDERSCORE
 )
 
 public class RunnerTags {
